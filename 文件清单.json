@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-07-16T03:27:56.647Z",
+  "sourceDirectory": "城管本体库_16概念域重构版_20260707_173707",
+  "preservedOldDirectory": true,
+  "fileCount": 31,
+  "files": [
+    {
+      "path": "app\\.gitignore",
+      "bytes": 28
+    },
+    {
+      "path": "app\\dist\\assets\\index-BGhVL35E.css",
+      "bytes": 79458
+    },
+    {
+      "path": "app\\dist\\assets\\index-_V-J1B7X.js",
+      "bytes": 1790248
+    },
+    {
+      "path": "app\\dist\\index.html",
+      "bytes": 431
+    },
+    {
+      "path": "app\\dist\\logo-icon.svg",
+      "bytes": 2172
+    },
+    {
+      "path": "app\\index.html",
+      "bytes": 331
+    },
+    {
+      "path": "app\\package.json",
+      "bytes": 708
+    },
+    {
+      "path": "app\\postcss.config.js",
+      "bytes": 80
+    },
+    {
+      "path": "app\\public\\logo-icon.svg",
+      "bytes": 2172
+    },
+    {
+      "path": "app\\src\\App.tsx",
+      "bytes": 2613
+    },
+    {
+      "path": "app\\src\\components\\ConceptTree.tsx",
+      "bytes": 10207
+    },
+    {
+      "path": "app\\src\\components\\ConstraintsView.tsx",
+      "bytes": 5566
+    },
+    {
+      "path": "app\\src\\components\\DetailPanel.tsx",
+      "bytes": 12142
+    },
+    {
+      "path": "app\\src\\components\\Header.tsx",
+      "bytes": 5065
+    },
+    {
+      "path": "app\\src\\components\\LawLibrary.tsx",
+      "bytes": 8020
+    },
+    {
+      "path": "app\\src\\components\\LeftPanel.tsx",
+      "bytes": 10808
+    },
+    {
+      "path": "app\\src\\components\\RelationGraph.tsx",
+      "bytes": 9798
+    },
+    {
+      "path": "app\\src\\data\\ontology.ts",
+      "bytes": 372830
+    },
+    {
+      "path": "app\\src\\index.css",
+      "bytes": 3740
+    },
+    {
+      "path": "app\\src\\main.tsx",
+      "bytes": 157
+    },
+    {
+      "path": "app\\src\\store\\useOntologyStore.ts",
+      "bytes": 3832
+    },
+    {
+      "path": "app\\tailwind.config.js",
+      "bytes": 163
+    },
+    {
+      "path": "app\\tsconfig.app.json",
+      "bytes": 815
+    },
+    {
+      "path": "app\\tsconfig.json",
+      "bytes": 232
+    },
+    {
+      "path": "app\\tsconfig.node.json",
+      "bytes": 653
+    },
+    {
+      "path": "app\\vite.config.ts",
+      "bytes": 380
+    },
+    {
+      "path": "data\\ontology.json",
+      "bytes": 442630
+    },
+    {
+      "path": "README.md",
+      "bytes": 849
+    },
+    {
+      "path": "启动城管本体库.ps1",
+      "bytes": 212
+    },
+    {
+      "path": "城管领域本体库_离线单文件.html",
+      "bytes": 1874156
+    }
+  ]
+}

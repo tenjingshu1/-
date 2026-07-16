@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28">
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Hexagon -->
+  <polygon points="50,4 93,25 93,75 50,96 7,75 7,25" fill="#F5A623" opacity="0.15" stroke="#F5A623" stroke-width="2"/>
+  <!-- City skyline silhouette -->
+  <g fill="#F5A623">
+    <!-- Building 1 -->
+    <rect x="22" y="58" width="10" height="16" rx="1"/>
+    <rect x="24" y="55" width="6" height="3" rx="0.5"/>
+    <!-- Building 2 -->
+    <rect x="34" y="50" width="12" height="24" rx="1"/>
+    <rect x="36" y="47" width="8" height="3" rx="0.5"/>
+    <rect x="37" y="53" width="2" height="3" rx="0.5"/>
+    <rect x="41" y="53" width="2" height="3" rx="0.5"/>
+    <rect x="37" y="59" width="2" height="3" rx="0.5"/>
+    <rect x="41" y="59" width="2" height="3" rx="0.5"/>
+    <!-- Building 3 (tower) -->
+    <rect x="48" y="38" width="10" height="36" rx="1"/>
+    <rect x="50" y="34" width="6" height="4" rx="0.5"/>
+    <rect x="51" y="42" width="2" height="4" rx="0.5"/>
+    <rect x="55" y="42" width="2" height="4" rx="0.5"/>
+    <rect x="51" y="50" width="2" height="4" rx="0.5"/>
+    <rect x="55" y="50" width="2" height="4" rx="0.5"/>
+    <rect x="51" y="58" width="2" height="4" rx="0.5"/>
+    <rect x="55" y="58" width="2" height="4" rx="0.5"/>
+    <!-- Building 4 -->
+    <rect x="60" y="54" width="10" height="20" rx="1"/>
+    <rect x="62" y="51" width="6" height="3" rx="0.5"/>
+    <rect x="63" y="57" width="2" height="3" rx="0.5"/>
+    <rect x="67" y="57" width="2" height="3" rx="0.5"/>
+    <!-- Building 5 -->
+    <rect x="72" y="60" width="8" height="14" rx="1"/>
+    <rect x="74" y="57" width="4" height="3" rx="0.5"/>
+    <!-- Antenna -->
+    <line x1="53" y1="34" x2="53" y2="26" stroke="#F5A623" stroke-width="1.5"/>
+    <circle cx="53" cy="25" r="1.5" fill="#F5A623"/>
+  </g>
+  <!-- Ground line -->
+  <line x1="18" y1="76" x2="82" y2="76" stroke="#F5A623" stroke-width="1.5" opacity="0.5"/>
+</svg>

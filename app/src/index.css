@@ -1,0 +1,159 @@
+/* ============================================
+   Google Fonts (must be before tailwind)
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Oranienbaum&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   CSS Variables
+   ============================================ */
+:root {
+  /* Brand */
+  --brand-primary: #F5A623;
+  --brand-accent: #3B8DFF;
+  --brand-emerald: #34D399;
+  --brand-rose: #F87171;
+
+  /* Backgrounds */
+  --bg-base: #0B0F1A;
+  --bg-surface: #111827;
+  --bg-elevated: #1B2333;
+  --bg-active: #1E293B;
+  --bg-hover: #162033;
+  --bg-input: #0D1219;
+
+  /* Borders */
+  --border-subtle: #1E293B;
+  --border-default: #2A3548;
+  --border-focus: #F5A623;
+
+  /* Text */
+  --text-primary: #E8ECF1;
+  --text-secondary: #94A3B8;
+  --text-tertiary: #4B5563;
+  --text-inverse: #0B0F1A;
+
+  /* Fonts */
+  --font-display: 'Oranienbaum', serif;
+  --font-body: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Shadows */
+  --shadow-selected: 0 0 0 2px rgba(245, 166, 35, 0.3), 0 0 12px rgba(245, 166, 35, 0.15);
+  --shadow-elevated: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 1px rgba(255, 255, 255, 0.05);
+  --shadow-dropdown: 0 8px 30px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.05);
+  --shadow-focus: 0 0 0 2px rgba(245, 166, 35, 0.4), 0 0 0 4px rgba(245, 166, 35, 0.1);
+
+  /* Easing */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================
+   Base Layer
+   ============================================ */
+@layer base {
+  html {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    background-color: var(--bg-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    overflow: hidden;
+  }
+
+  #root {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148, 163, 184, 0.2) transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(148, 163, 184, 0.2);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(148, 163, 184, 0.4);
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+/* ============================================
+   Custom Selection
+   ============================================ */
+::selection {
+  background-color: rgba(245, 166, 35, 0.3);
+  color: #E8ECF1;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .text-brand {
+    color: var(--brand-primary);
+  }
+
+  .bg-brand {
+    background-color: var(--brand-primary);
+  }
+
+  .border-brand {
+    border-color: var(--brand-primary);
+  }
+
+  .shadow-selected {
+    box-shadow: var(--shadow-selected);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-dropdown {
+    box-shadow: var(--shadow-dropdown);
+  }
+
+  .shadow-focus {
+    box-shadow: var(--shadow-focus);
+  }
+}
